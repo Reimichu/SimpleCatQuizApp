@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:src="@drawable/meow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25sp"
+            android:text="Hello!"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:layout_marginBottom="18dp"
+            android:layout_gravity="center"
+            android:textSize="15sp"
+            android:text="I hope you learn something new and interesting."/>
+
+        <EditText
+            android:id="@+id/name_Input"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="18dp"
+            android:hint="Your Name"
+            android:inputType="textCapWords"
+            android:layout_marginLeft="8dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="An unspayed female cat of breeding age is referred to as a Queen?"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp">
+
+            <RadioButton
+                android:id="@+id/question_1_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="True"
+                android:padding="6dp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="False"
+                android:layout_marginBottom="18dp"
+                android:padding="6dp"
+                android:checked="false"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="Cats can become hydrated by drinking sea water"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp">
+
+            <RadioButton
+                android:id="@+id/question_2_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="True"
+                android:padding="6dp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="False"
+                android:layout_marginBottom="18dp"
+                android:padding="6dp"
+                android:checked="false"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="Cats sweat through their paws"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp">
+
+            <RadioButton
+                android:id="@+id/question_3_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="True"
+                android:padding="6dp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="False"
+                android:layout_marginBottom="18dp"
+                android:padding="6dp"
+                android:checked="false"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="Turkish Van cats have water resistant fur"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp">
+
+            <RadioButton
+                android:id="@+id/question_4_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="True"
+                android:padding="6dp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="False"
+                android:layout_marginBottom="18dp"
+                android:padding="6dp"
+                android:checked="false"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="Which of the following are bad for cats to consume? Check all that apply"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/chocolate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="24dp"
+            android:text="Chocolate" />
+
+        <CheckBox
+            android:id="@+id/grapes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="24dp"
+            android:text="Grapes" />
+
+        <CheckBox
+            android:id="@+id/raisins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="24dp"
+            android:text="Raisins" />
+
+        <CheckBox
+            android:id="@+id/onion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="24dp"
+            android:text="Onion" />
+
+        <CheckBox
+            android:id="@+id/garlic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:padding="8dp"
+            android:layout_marginLeft="33dp"
+            android:layout_marginRight="24dp"
+            android:text="Garlic" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text="What is the technical term for a person who is fond of cats"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp">
+
+            <RadioButton
+                android:id="@+id/question_6_right"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ailurophile"
+                android:padding="6dp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A cat person"
+                android:padding="6dp"
+                android:checked="false"/>
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A furry"
+                android:layout_marginBottom="18dp"
+                android:padding="6dp"
+                android:checked="false"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:padding="8dp"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:onClick="submitScore"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=" Score "
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/score_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:textSize="80sp"
+            android:layout_marginBottom="16sp"/>
+
+        <TextView
+            android:id="@+id/thank_you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text=""
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginBottom="16sp"/>
+    </LinearLayout>
+
+</ScrollView>
